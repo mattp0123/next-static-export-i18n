@@ -2,13 +2,16 @@
   "name": "next-static-export-i18n",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@stitches/react": "^1.2.8",
     "next": "12.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
